@@ -25,4 +25,9 @@ public class UserController {
     public String getUser() {
         return "hello word!";
     }
+
+    @RequestMapping("/addUser")
+    public String addUser() {
+        return "hello word!";
+    }
 }
